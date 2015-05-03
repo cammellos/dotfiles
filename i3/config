@@ -153,6 +153,7 @@ bindsym $mod+c exec synapse
 
 exec --no-startup-id "xrandr --output VGA-0 --auto  --output DVI-0 --auto --left-of VGA-0"
 exec --no-startup-id nm-applet
+exec --no-startup-id "feh --bg-scale ~/.i3/themes/default/background.png"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
