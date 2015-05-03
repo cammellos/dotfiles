@@ -1,0 +1,10 @@
+aura-bin
+dropbox
+keepassx2
+libgcrypt15
+spotify
+termite
+ttf-inconsolata-g
+ttf-monaco
+ttf-vista-fonts
+vte3-select-text
