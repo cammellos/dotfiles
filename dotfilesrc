@@ -1,3 +1,5 @@
 [dotfiles]
   repository = /home/eleroo/documents/programming/personal/dotfiles
 
+packages = ['config']
+
