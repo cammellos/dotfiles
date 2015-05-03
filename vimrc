@@ -128,13 +128,19 @@ function Keyboard(type)
       nnoremap Y H
 
       "split mapping
-      nnoremap ,a <C-w>s
+      nnoremap ,a <C-w>v
       nnoremap ,r <C-w>k
       nnoremap ,h <C-w>j
+      nnoremap ,b <C-w>l
+      nnoremap ,w <C-w>h
+
+
+
       "tab remapping
-      nnoremap ,w     :tabnew<CR>
+      nnoremap ,r     :tabnew<CR>
       nnoremap ,g     :tabnext<CR>
       nnoremap ,t     :tabprevious<CR>
+
 endfunction
 
 function LoadKeyboard()
