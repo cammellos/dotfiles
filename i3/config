@@ -151,6 +151,7 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+c exec synapse
 
+
 exec --no-startup-id "xrandr --output VGA-0 --auto  --output DVI-0 --auto --left-of VGA-0"
 exec --no-startup-id nm-applet
 exec --no-startup-id "feh --bg-scale ~/.i3/themes/default/background.png"
@@ -160,4 +161,5 @@ exec --no-startup-id dropbox
 # finds out, if available)
 bar {
         status_command i3status
+        tray_output DVI-0
 }
