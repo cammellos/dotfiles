@@ -18,4 +18,5 @@ MiscHighlightUrls=TRUE
 FontName=Inconsolata-g Medium 12
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0.840000
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
 
