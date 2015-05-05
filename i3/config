@@ -151,6 +151,7 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+c exec synapse
 
+bindsym $mod+o move workspace to output right
 
 exec --no-startup-id "xrandr --output VGA-0 --auto  --output DVI-0 --auto --left-of VGA-0"
 exec --no-startup-id nm-applet
