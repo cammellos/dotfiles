@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd $HOME/documents/software/teamviewer
+./teamviewer

@@ -90,5 +90,6 @@ VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 alias vi='/usr/bin/vim'
 
-
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.bin" # Add RVM to PATH for scripting
+
