@@ -131,13 +131,13 @@ function Keyboard(type)
       nnoremap ,a <C-w>v
       nnoremap ,r <C-w>k
       nnoremap ,h <C-w>j
-      nnoremap ,b <C-w>l
-      nnoremap ,w <C-w>h
+      nnoremap ,r <C-w>l
+      nnoremap ,d <C-w>h
 
 
 
       "tab remapping
-      nnoremap ,r     :tabnew<CR>
+      nnoremap ,w     :tabnew<CR>
       nnoremap ,g     :tabnext<CR>
       nnoremap ,t     :tabprevious<CR>
 
