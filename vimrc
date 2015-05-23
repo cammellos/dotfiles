@@ -153,6 +153,7 @@ autocmd VimEnter * call LoadKeyboard()
 set backupdir=~/.vim/backups
 set directory=~/.vim/backups
 set clipboard=unnamed
+set rnu
 
 
 syntax enable
