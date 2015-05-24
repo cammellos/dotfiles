@@ -167,6 +167,6 @@ exec --no-startup-id dropbox
 # finds out, if available)
 bar {
         status_command i3status
-        tray_output DVI-0
-        tray_output LVDS-0
+        #tray_output DVI-0
+        #tray_output LVDS-0
 }

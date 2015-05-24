@@ -6,7 +6,7 @@ Plugin 'taglist.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'digitaltoad/vim-jade'
-Plugin 'flazz/vim-colorschemes'
+Plugin 'altercation/vim-colors-solarized'
 call vundle#end()
 
 
@@ -154,7 +154,9 @@ set backupdir=~/.vim/backups
 set directory=~/.vim/backups
 set clipboard=unnamed
 set rnu
-
-
 syntax enable
+colorscheme elflord
+
+
+
 filetype plugin indent on
