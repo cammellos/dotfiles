@@ -1,7 +1,4 @@
 [Configuration]
-ColorCursor=#22df7fcfffff
-ColorForeground=#838394949696
-ColorBackground=#00002b2b3636
 ColorPalette1=#070736364242
 ColorPalette2=#dcdc32322f2f
 ColorPalette3=#858599990000
@@ -37,6 +34,13 @@ MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.900000
+BackgroundDarkness=0.840000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
+ColorPalette=#eee8d5;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#073642;#fdf6e3;#cb4b16;#93a1a1;#839496;#657b83;#6c71c4;#586e75;#002b36
+ColorForeground=#657b83
+ColorBackground=#fdf6e3
+ColorCursor=#586e75
+ColorBold=#586e75
+ColorBoldUseDefault=FALSE
+TabActivityColor=#dc322f
 
