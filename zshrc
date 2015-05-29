@@ -95,4 +95,5 @@ export PATH="$PATH:$HOME/.bin" # Add RVM to PATH for scripting
 
 #if [ "$TMUX" = "" ]; then tmux; fi
 source ~/.profile
+eval $(ssh-agent)
 
