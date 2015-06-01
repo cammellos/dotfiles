@@ -120,3 +120,6 @@ bindkey -a 'y' down-history
 bindkey -a 'o' down-history
 bindkey "^R" history-incremental-search-backward
 
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
