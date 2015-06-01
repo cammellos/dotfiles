@@ -5,8 +5,9 @@ export ZSH=/home/eleroo/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="bureau"
-
+#ZSH_THEME="bureau"
+#ZSH_THEME="random"
+ZSH_THEME="cammellos"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -95,5 +96,27 @@ export PATH="$PATH:$HOME/.bin" # Add RVM to PATH for scripting
 
 #if [ "$TMUX" = "" ]; then tmux; fi
 source ~/.profile
+
+# SSH AGENT 
 eval $(ssh-agent)
+
+# SHOW PROMPT
+
+#function zle-line-init zle-keymap-select {
+#    RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
+#    RPS2=$RPS1
+#    zle reset-prompt
+#}
+#zle -N zle-line-init
+#zle -N zle-keymap-select
+
+# VIM keybindings
+
+bindkey -v
+
+bindkey -a 'e' up-history
+bindkey -a 'n' down-history
+bindkey -a 'y' down-history
+bindkey -a 'o' down-history
+bindkey "^R" history-incremental-search-backward
 
