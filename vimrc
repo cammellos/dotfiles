@@ -7,6 +7,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-ruby/vim-ruby'
 call vundle#end()
 
 

@@ -110,14 +110,16 @@ eval $(ssh-agent)
 #zle -N zle-line-init
 #zle -N zle-keymap-select
 
+export EDITOR=vim
+
 # VIM keybindings
 
-bindkey -v
+#bindkey -v
 
-bindkey -a 'e' up-history
-bindkey -a 'n' down-history
-bindkey -a 'y' down-history
-bindkey -a 'o' down-history
+#bindkey -a 'e' up-history
+#bindkey -a 'n' down-history
+#bindkey -a 'y' down-history
+#bindkey -a 'o' down-history
 bindkey "^R" history-incremental-search-backward
 
 alias pbcopy='xclip -selection clipboard'
