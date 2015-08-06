@@ -30,7 +30,7 @@ font pango:inconsolata-g 9
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec xfce4-terminal -e fish
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -163,6 +163,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id "feh --bg-scale ~/.i3/themes/default/background.png"
 exec --no-startup-id dropbox
 exec --no-startup-id pasystray
+exec --no-startup-id TogglDesktop
 
 for_window [class="synapse"] move container to current;
 
