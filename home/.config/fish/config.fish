@@ -9,3 +9,5 @@ abbr -a gre="git rebase"
 abbr -a ga="git add"
 abbr -a gc="git commit"
 
+set -xU EDITOR vim
+
