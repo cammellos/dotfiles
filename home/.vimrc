@@ -1,14 +1,15 @@
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#begin()
-Plugin 'taglist.vim'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'derekwyatt/vim-scala'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'vim-ruby/vim-ruby'
-call vundle#end()
+call plug#begin('~/.vim/plugged')
+
+Plug 'taglist.vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'derekwyatt/vim-scala'
+Plug 'digitaltoad/vim-jade'
+Plug 'altercation/vim-colors-solarized'
+Plug 'vim-ruby/vim-ruby'
+call plug#end()
 
 
 
