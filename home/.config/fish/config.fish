@@ -12,6 +12,8 @@ abbr -a gdf="git diff"
 abbr -a glo="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 abbr -a pbcopy="xclip -selection clipboard"
 abbr -a pbpaste="xclip -selection clipboard -o"
+abbr -a vi="nvim"
+abbr -a vim="nvim"
 
 
 set -xU EDITOR vim
@@ -34,4 +36,4 @@ set -gx PATH $GOPATH/bin $PATH
 # Load oh-my-fish configuration.
 source $OMF_PATH/init.fish
 source ~/.config/fish/nvm-wrapper/nvm.fish
-rvm default
+#rvm default
