@@ -27,6 +27,11 @@ set -g OMF_CONFIG $HOME/.config/omf
 set -gx GOPATH $HOME/documents/programming/golang
 set -gx PATH $GOPATH/bin $PATH
 
+set -gx NPM_PACKAGES $HOME/.npm-packages
+set -gx NODE_PATH $NPM_PACKAGES/lib/node_modules $NODE_PATH
+set -gx PATH $NPM_PACKAGES/bin $PATH
+
+
 
 ### Configuration required to load oh-my-fish ###
 # Note: Only add configurations that are required to be set before oh-my-fish is loaded.
@@ -36,4 +41,4 @@ set -gx PATH $GOPATH/bin $PATH
 # Load oh-my-fish configuration.
 source $OMF_PATH/init.fish
 source ~/.config/fish/nvm-wrapper/nvm.fish
-#rvm default
+rvm default

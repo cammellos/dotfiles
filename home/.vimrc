@@ -4,6 +4,7 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call plug#begin('~/.vim/plugged')
 
 Plug 'taglist.vim'
+Plug 'benekastah/neomake'
 Plug 'kchmck/vim-coffee-script'
 Plug 'derekwyatt/vim-scala'
 Plug 'digitaltoad/vim-jade'
