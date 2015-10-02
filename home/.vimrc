@@ -55,7 +55,6 @@ set smartcase
 nnoremap ; :
 nnoremap : ;
 
-
 " This is totally awesome - remap jj to escape in insert mode.  You'll never type jj anyway, so it's great!
 inoremap jj <Esc>
 
@@ -77,12 +76,9 @@ set nohidden
 highlight MatchParen ctermbg=4
 " }}}
 
-
 "Status line gnarliness
 set laststatus=2
 set statusline=%F%m%r%h%w\ (%{&ff}){%Y}\ [%l,%v][%p%%]
-
-
 
 " Keyboard  *******************************************************************
 function Keyboard(type)
@@ -143,6 +139,7 @@ function Keyboard(type)
       nnoremap ,w     :tabnew<CR>
       nnoremap ,g     :tabnext<CR>
       nnoremap ,t     :tabprevious<CR>
+      nnoremap ,1     :Neomake<CR>
 
 endfunction
 
@@ -151,7 +148,6 @@ function LoadKeyboard()
 endfunction
 
 autocmd VimEnter * call LoadKeyboard()
-
 
 set backupdir=~/.vim/backups
 set directory=~/.vim/backups
