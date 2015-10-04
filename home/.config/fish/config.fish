@@ -42,4 +42,6 @@ set -gx TERM="xterm-256color"
 source $OMF_PATH/init.fish
 source ~/.config/fish/nvm-wrapper/nvm.fish
 rvm default
+
+fortune  ~/documents/Dropbox/fortunes/
 task list
