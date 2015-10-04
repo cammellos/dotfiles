@@ -10,6 +10,8 @@ Plug 'derekwyatt/vim-scala'
 Plug 'digitaltoad/vim-jade'
 Plug 'altercation/vim-colors-solarized'
 Plug 'vim-ruby/vim-ruby'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 
@@ -156,6 +158,8 @@ set rnu
 syntax enable
 colorscheme elflord
 
-
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 filetype plugin indent on
