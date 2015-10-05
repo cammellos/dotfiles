@@ -12,6 +12,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'vim-ruby/vim-ruby'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
+Plug 'mustache/vim-mustache-handlebars'
 call plug#end()
 
 
